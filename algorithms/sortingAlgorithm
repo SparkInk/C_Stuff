@@ -14,7 +14,7 @@ void incSort(double *arr, int size) {
     
     for (int i = 0; i < size; i++) {
         for (int j = i + 1; j < size; j++){
-            if (arr[i] >= arr[j]){
+            if (arr[i] > arr[j]){
                 double temp;
                 temp = arr[i];
                 arr[i]= arr[j];
